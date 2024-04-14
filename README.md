@@ -1,2 +1,3 @@
 # Jogo da forca
- Primeiro repositório versionado
+
+ Primeiro repositório versionado para praticar
