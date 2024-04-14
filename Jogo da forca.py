@@ -93,4 +93,3 @@ while not fim_de_jogo:
 
     print(stages[vidas])
   
-teste replit app
