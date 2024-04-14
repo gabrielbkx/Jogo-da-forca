@@ -35,6 +35,6 @@ while not fim_de_jogo:
         if vidas == 0:
             fim_de_jogo = True
             print("Você Perdeu.")
-
+            print(f"A palavra era {palavra_aleatoria}")
     print(stages[vidas])
   
