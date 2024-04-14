@@ -1,64 +1,9 @@
 import random
-stages = ['''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========
-''']
-palavras = ["abóbora", "girassol","piano",]
+from Jogo_da_forca_Arte import stages,logo
+from Jogo_da_forca_palavras import palavras
 
 palavra_aleatoria = random.choice(palavras)
-print(palavra_aleatoria)
+print(logo)
 
 display = []
 
