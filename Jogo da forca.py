@@ -92,3 +92,5 @@ while not fim_de_jogo:
             print("Você Perdeu.")
 
     print(stages[vidas])
+  
+TESTE REPLIT WEB
