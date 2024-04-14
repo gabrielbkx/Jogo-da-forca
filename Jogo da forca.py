@@ -90,4 +90,5 @@ while not fim_de_jogo:
 
         if vidas == 0:
             fim_de_jogo = True
-            print("Você Perdeu.")
+            print("Você Perdeu.")            print("Você Perdeu.")
+
