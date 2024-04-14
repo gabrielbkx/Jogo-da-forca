@@ -78,7 +78,8 @@ while not fim_de_jogo:
 
        if letras == letra:
             display[posicao] = letras
-            print(display)
+
+    print(f"{' '.join(display)}")
 
     if "_" not in display:
         fim_de_jogo = True
@@ -86,9 +87,8 @@ while not fim_de_jogo:
 
     if letra not in palavra_aleatoria:
         vidas -= 1
-        print(stages[vidas])
-
         if vidas == 0:
             fim_de_jogo = True
-            print("Você Perdeu.")            print("Você Perdeu.")
+            print("Você Perdeu.")
 
+    print(stages[vidas])
