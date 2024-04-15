@@ -1,7 +1,7 @@
 import random
 from Jogo_da_forca_Arte import stages,logo
 from Jogo_da_forca_palavras import palavras
-
+        
 palavra_aleatoria = random.choice(palavras)
 print(logo)
 
@@ -17,7 +17,7 @@ fim_de_jogo = False
 print(palavra_aleatoria)
 
 while not fim_de_jogo:
-
+    limpar_tela()
     letra = input("Adivinhe uma letra\n").lower()
 
     if letra in display:
