@@ -14,12 +14,10 @@ for letras in palavra_aleatoria:
 
 fim_de_jogo = False
 
-print(palavra_aleatoria)
-
 while not fim_de_jogo:
 
     letra = input("Adivinhe uma letra\n").lower()
-    
+
     if letra in display:
         print(f"Você ja digitou a letra {letra}")
 
